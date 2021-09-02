@@ -1,7 +1,7 @@
 import getpass
-import followPath
-import getWhoList
-import parseWhoList
+from utilities import followPath
+from utilities import getWhoList
+from utilities import parseWhoList
 
 def checkForNewLines():
     username = getpass.getuser()
