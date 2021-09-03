@@ -2,6 +2,7 @@ import getpass
 from utilities import followPath
 from utilities import getWhoList
 from utilities import parseWhoList
+from jsonMethods import write
 
 def checkForNewLines():
     username = getpass.getuser()
@@ -11,4 +12,4 @@ def checkForNewLines():
     for line in loglines:
         whoList = getWhoList.getWhoList(line)
         if whoList:
-            print(parseWhoList.parseWhoList(whoList))
+            write.write("whoList.json",parseWhoList.parseWhoList(whoList))

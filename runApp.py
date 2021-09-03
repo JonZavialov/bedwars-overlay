@@ -1,2 +1,0 @@
-def runApp():
-    print('souse')
