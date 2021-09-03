@@ -13,3 +13,31 @@
 body {
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
+
+.banner {
+    background-color: #E94E09;
+    margin: auto;
+    width: 80%;
+    padding: 5px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.mainBody {
+    background-color: #222327;
+}
+
+.statsDisplay {
+    color: white;
+}
+
+.dict {
+    color: #222327;
+}
+
+table{
+    text-align: center;
+}

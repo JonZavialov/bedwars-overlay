@@ -9,7 +9,14 @@
     <script src="{{url_for('static', filename='index.js')}}"></script>
     <title>Bedwars Overlay</title>
 </head>
-<body>
-  ses
+<body class="mainBody">
+    <script>
+        window.onload=function(){
+          replaceStats()
+        }
+    </script>
+  <div class= "banner"><p>SonyTV Bedwars Stats</p></div>
+  <div class = "statsDisplay"><table id="stats" style="width:100%"></table></div>
+  <p class="dict" id="dict"></p>
 </body>
 </html>
