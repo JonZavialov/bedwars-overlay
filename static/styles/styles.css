@@ -1,0 +1,15 @@
+.initButton {
+    background-color: #E94E09;
+    margin: auto;
+    width: 50%;
+    padding: 50px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
